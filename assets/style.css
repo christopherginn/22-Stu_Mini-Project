@@ -1,6 +1,17 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    position: fixed;
+    margin: 0px;
+    padding:0px;
+    width: 100%;
+    background-color: darkolivegreen;
+    top: 0px;
 }
 
 body {
@@ -8,12 +19,12 @@ body {
     padding-top: 30px;
 }
 
-header {
-    position: fixed;
-    z-index: 0;
+footer {
+    position:absolute;
+    margin-top: 10px;
     width: 100%;
     background-color: darkolivegreen;
-    top: 0px;
+    bottom: 0px;
 }
 
 nav ul{
@@ -33,6 +44,10 @@ img {
     border-color: darkolivegreen;
     padding: 10px;
     background-color: darkgray;
+}
+
+section {
+    
 }
 
 #contactbox {
