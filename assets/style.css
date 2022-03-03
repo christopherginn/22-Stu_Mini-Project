@@ -4,6 +4,17 @@
     margin: 0px;
     padding: 0px;
 }
+h1 {
+    margin: 15px;
+}
+
+h2 {
+    margin: 15px;;
+}
+
+p {
+    margin: 15px;
+}
 
 header {
     position: fixed;
@@ -12,6 +23,7 @@ header {
     width: 100%;
     background-color: darkolivegreen;
     top: 0px;
+    height: 35px;
 }
 
 body {
@@ -31,6 +43,7 @@ nav ul{
     list-style: none;
     float: right;
     padding-right: 10px;
+    margin: 10px;
 }
 
 nav ul li {
@@ -47,7 +60,7 @@ img {
 }
 
 section {
-    
+    margin: 15px;
 }
 
 #contactbox {
@@ -59,4 +72,13 @@ section {
     border-radius: 20px;
     border-color: darkgray;
     padding: 5px;
+}
+
+#content{
+    position: relative;
+    min-height: 100%;
+}
+
+#content_wrap{
+    padding-bottom: 45px;
 }
